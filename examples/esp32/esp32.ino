@@ -38,9 +38,11 @@ void listRoot(){
   }
 }
 
+#define LED_PIN 2
+
 void setup()
 {
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(LED_PIN, OUTPUT);
   Serial.begin(115200);
   while(!Serial);
 
@@ -60,9 +62,9 @@ void loop()
   // GitHubOTA.handle();
 
   // Your code goes here
-  digitalWrite(LED_BUILTIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+  digitalWrite(LED_PIN, HIGH);  // turn the LED on (HIGH is the voltage level)
   delay(DELAY_MS);                  // wait for a second
-  digitalWrite(LED_BUILTIN, LOW);   // turn the LED off by making the voltage LOW
+  digitalWrite(LED_PIN, LOW);   // turn the LED off by making the voltage LOW
   delay(DELAY_MS);                  // wait for a second
 }
 
