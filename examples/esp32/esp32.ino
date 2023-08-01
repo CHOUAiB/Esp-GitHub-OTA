@@ -1,6 +1,9 @@
 #include <WiFi.h>
 #include <ota.h>
 
+#include "SPIFFS.h"
+#define FILESYS SPIFFS
+
 // This string should correspond to github tag used for Releasing (via. Github Actions)
 #define VERSION "0.0.1"
 
