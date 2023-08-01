@@ -23,8 +23,8 @@ jobs:
         arduino-cli config init
         arduino-cli config set library.enable_unsafe_install true
         arduino-cli lib install -v ArduinoJson
-        arduino-cli lib install -v --git-url https://github.com/axcap/Esp-GitHub-OTA.git
+        arduino-cli lib install -v --git-url https://github.com/CHOUAiB/Esp-GitHub-OTA.git
 
     - name: Compile Sketch
       run: arduino-cli compile -b esp8266:esp8266:${{ env.TARGET }}
-      working-directory: examples/ESP8266_example
+      working-directory: examples/esp5266
