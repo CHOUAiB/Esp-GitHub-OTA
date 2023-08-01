@@ -22,4 +22,4 @@ jobs:
         pip install --upgrade platformio
     - name: Run PlatformIO
       run: pio run -e ${{ env.TARGET }}
-      working-directory: examples/ESP32_example
+      working-directory: examples/esp32
