@@ -34,6 +34,9 @@ Lorenzo Baldini ([lollobaldo](https://github.com/lollobaldo)) - Reduced memory f
 
 # CHANGELOG.md
 
+## 0.1.2 (fix) (2023-08-01)
+Fix errors while compiling esp32 code by CHOUAiB
+
 ## 0.1.2 (2023-06-28)
 Memory footprint reduction by Lorenzo Baldini
 
