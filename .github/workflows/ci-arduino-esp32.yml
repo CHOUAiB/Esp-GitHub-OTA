@@ -27,4 +27,4 @@ jobs:
 
     - name: Compile Sketch
       run: arduino-cli compile -b esp32:esp32:${{ env.TARGET }}
-      working-directory: examples/ESP32_example
+      working-directory: examples/esp32
