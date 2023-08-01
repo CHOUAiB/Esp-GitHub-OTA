@@ -44,7 +44,7 @@ private:
   String _fs_pending_filename;
   bool _fetch_url_via_redirect;
   WiFiClientSecure _wifi_client;
-  #ifndef ESP32
+   #ifndef ESP32
   X509List _x509;  
   #endif
 };
