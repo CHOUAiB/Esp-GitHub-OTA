@@ -22,4 +22,4 @@ jobs:
         pip install --upgrade platformio
     - name: Run PlatformIO
       run: pio run -e ${{ env.TARGET }}
-      working-directory: examples/ESP8266_example
+      working-directory: examples/esp8266
